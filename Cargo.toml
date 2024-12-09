@@ -1,0 +1,5 @@
+[workspace]
+members = [
+  "src/ble"
+, "src/rfid", "src/serial"]
+resolver = "2"

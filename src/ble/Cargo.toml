@@ -1,0 +1,9 @@
+[package]
+name = "ble"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+btleplug = "0.11.6"
+serde = { version = "1.0.215", features = ["derive"] }
+tokio = { version = "1.42.0", features = ["full"] }
